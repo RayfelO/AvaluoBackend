@@ -14,8 +14,6 @@
   <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white" alt="Redis">
   <img src="https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=black" alt="Swagger">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"></a>
-  <img src="https://img.shields.io/github/contributors/RayfelO/AvaluoBackend?color=blue" alt="Contributors">
-  <img src="https://img.shields.io/github/issues/RayfelO/AvaluoBackend" alt="Issues">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=RayfelO.AvaluoBackend" alt="Visitors">
 </p>
 
@@ -25,7 +23,7 @@
 
 Avaluo es una plataforma de gestion academica orientada al **avaluo de desempeno universitario**. Facilita la evaluacion de competencias, Student Outcomes (SO) y Performance Indicators (PI) mediante rúbricas digitales, generacion automatica de informes en PDF y dashboards de seguimiento para coordinadores de carrera.
 
-Este repositorio contiene el **Backend API** del sistema, desarrollado como parte de una tesis de grado.
+Este repositorio contiene el **Backend API** del sistema, desarrollado como parte de una tesis de grado en colaboracion con [**INTEC**](https://www.intec.edu.do/) bajo los estandares de acreditacion [**ABET**](https://www.abet.org/).
 
 > Repositorio original: [Tejanin/AvaluoBackend](https://github.com/Tejanin/AvaluoBackend)  
 > Frontend (privado): [siriuzz/AvaluoUI](https://github.com/siriuzz/AvaluoUI)
@@ -49,7 +47,7 @@ Este repositorio contiene el **Backend API** del sistema, desarrollado como part
 
 ## Stack tecnologico
 
-<p align="center">
+<p>
   <img src="https://skillicons.dev/icons?i=dotnet,cs,docker,redis,github&perline=6" alt="Tech Stack Icons">
 </p>
 
@@ -105,16 +103,12 @@ Para mas detalles, consulta la [documentacion completa](https://RayfelO.github.i
 
 ## Capturas y Demo
 
-> El backend expone una API REST documentada con Swagger. A continuacion, una demostracion del sistema en accion:
+> El backend expone una API REST documentada con Swagger. A continuacion, una demostracion del sistema en accion: [Ver demo en YouTube](https://youtu.be/CVELSReGrLg)
 
 <p align="center">
   <a href="https://youtu.be/CVELSReGrLg">
     <img src="https://img.youtube.com/vi/CVELSReGrLg/0.jpg" alt="Demo en YouTube" width="480">
   </a>
-</p>
-
-<p align="center">
-  <a href="https://youtu.be/CVELSReGrLg">Ver demo en YouTube</a>
 </p>
 
 ### Screenshots
@@ -126,15 +120,15 @@ Para mas detalles, consulta la [documentacion completa](https://RayfelO.github.i
 </p>
 
 <p align="center">
-  <img src="assets/InformePDF.png" alt="Informe PDF" width="600">
-  <br>
-  <em>Generacion automatica de informes en PDF</em>
-</p>
-
-<p align="center">
   <img src="assets/AvaluoFrontend.png" alt="Frontend" width="600">
   <br>
   <em>Interfaz del cliente conectado al backend</em>
+</p>
+
+<p align="center">
+  <img src="assets/InformePDF.png" alt="Informe PDF" width="600">
+  <br>
+  <em>Generacion automatica de informes en PDF</em>
 </p>
 
 - **Swagger UI**: `https://localhost:8000` (al ejecutar localmente)
