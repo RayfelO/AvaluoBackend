@@ -1,6 +1,18 @@
-@AvaluoAPI_HostAddress = http://localhost:5142
+@AvaluoAPI_HostAddress = https://localhost:8000
 
-GET {{AvaluoAPI_HostAddress}}/weatherforecast/
-Accept: application/json
+### Login
+POST {{AvaluoAPI_HostAddress}}/api/usuarios/login
+Content-Type: application/json
 
-###
+{
+  "email": "usuario@ejemplo.com",
+  "password": "contrasena"
+}
+
+### Obtener resumen de SO (requiere auth)
+GET {{AvaluoAPI_HostAddress}}/api/dashboard/studentOutcomes
+Authorization: Bearer <token>
+
+### Listar evaluaciones paginadas (requiere auth)
+GET {{AvaluoAPI_HostAddress}}/api/dashboard/evaluaciones?page=1&recordsPerPage=10
+Authorization: Bearer <token>
