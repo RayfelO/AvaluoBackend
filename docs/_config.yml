@@ -1,16 +1,22 @@
-title: "Avaluo Backend"
-description: "Documentacion tecnica del backend de Avaluo."
-baseurl: "/AvaluoBackend"
+title: Avaluo Backend
+remote_theme: just-the-docs/just-the-docs
+description: Documentacion oficial del backend de Avaluo — sistema de gestion de avaluo de desempeno universitario.
+color_scheme: dark
+search_enabled: true
+
+# Links auxiliares
+aux_links:
+  "GitHub":
+    - "https://github.com/RayfelO/AvaluoBackend"
+aux_links_new_tab: true
+
+# Navegacion
+heading_anchors: true
+nav_sort: case_insensitive
+
+# GitHub Pages
 url: "https://RayfelO.github.io"
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-author:
-  name: "Avaluo Contributors"
-show_excerpts: false
-header_pages:
-  - index.md
-  - arquitectura.md
-  - api.md
-  - despliegue.md
+baseurl: "/AvaluoBackend"
+
+# Footer
+footer_content: "Avaluo Backend &copy; 2025"
