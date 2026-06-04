@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white" alt="SQL Server">
   <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white" alt="Redis">
   <img src="https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=black" alt="Swagger">
+  <a href="https://www.figma.com/design/z5VUqngAzIWqALaQEL4BdH/Avaluo-Web---Proyecto-final"><img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white" alt="Figma"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"></a>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=RayfelO.AvaluoBackend" alt="Visitors">
 </p>
@@ -26,7 +27,8 @@ Avaluo es una plataforma de gestion academica orientada al **avaluo de desempeno
 Este repositorio contiene el **Backend API** del sistema, desarrollado como parte de una tesis de grado en colaboracion con [**INTEC**](https://www.intec.edu.do/) bajo los estandares de acreditacion [**ABET**](https://www.abet.org/).
 
 > Repositorio original: [Tejanin/AvaluoBackend](https://github.com/Tejanin/AvaluoBackend)  
-> Frontend (privado): [siriuzz/AvaluoUI](https://github.com/siriuzz/AvaluoUI)
+> Frontend (privado): [siriuzz/AvaluoUI](https://github.com/siriuzz/AvaluoUI)  
+> Prototipo de diseño: [Figma](https://www.figma.com/design/z5VUqngAzIWqALaQEL4BdH/Avaluo-Web---Proyecto-final)
 
 ---
 
