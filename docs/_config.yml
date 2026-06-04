@@ -1,0 +1,16 @@
+title: "Avaluo Backend"
+description: "Documentacion tecnica del backend de Avaluo."
+baseurl: "/AvaluoBackend"
+url: "https://RayfelO.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+author:
+  name: "Avaluo Contributors"
+show_excerpts: false
+header_pages:
+  - index.md
+  - arquitectura.md
+  - api.md
+  - despliegue.md
